@@ -15,14 +15,14 @@ print("[A] Addition");
 print("[M] Multiplication");
 option = (input("Enter the letter of the option: "));
 
-if option == 'A':
+if option == 'A' or 'a':
     print("Addition");
     
     for num in range(1,number+1): #WTF number+1
         sum_total += num;
         
     print("The sum of the number from 1 to", number, "is", sum_total);
-elif option == 'M':
+elif option == 'M' or 'm':
     print("Multiplication");
     
     for num in range(1,number+1): #WTF number+1
