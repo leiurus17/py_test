@@ -20,12 +20,12 @@ aLabel.grid(column=0,row=0);
 def clickMe():
     action.configure(text="** I have been clicked **")
     aLabel.configure(foreground='red',background='yellow')
-    action.configure(command=clickMeReset)
+    action.configure(command=clickMeReset) # this is reconfigure
     
 def clickMeReset():
     action.configure(text="** Click Me! **")
     aLabel.configure(foreground='black',background='white')
-    action.configure(command=clickMe)
+    action.configure(command=clickMe) # this is reconfigure
 
 #Adding a button
 action = ttk.Button(win, text="Click Me!", command=clickMe)
