@@ -6,4 +6,5 @@ Created on Nov 26, 2016
 
 #Write a program that prints 'Hello World' to the screen.
 
-print("Hello World");
+print("Hello World")
+print("Herro Sekai")
