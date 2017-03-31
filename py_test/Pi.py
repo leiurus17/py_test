@@ -5,8 +5,8 @@ Created on Nov 26, 2016
 '''
 
 radius = float(input("Enter the radius:"))
-pi = 3.14159;
+pi = 3.14159
 
-area =  pi * radius * radius;
+area =  pi * radius * radius
 
-print("The area is", area);
+print("The area is", area)

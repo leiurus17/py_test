@@ -10,13 +10,13 @@ import sys
 print("=== MULTIPLICATION TABLE FROM 1 TO 12 ===\n")
 
 #Print the header
-sys.stdout.write("x\t"); #So that we can create a proper table
+sys.stdout.write("x\t") #So that we can create a proper table
 for num in range(1,13):
-    sys.stdout.write(str(num) + "\t");
+    sys.stdout.write(str(num) + "\t")
 print("");
 #Now create the table
 for num in range(1,13):
-    sys.stdout.write(str(num) + "\t");
+    sys.stdout.write(str(num) + "\t")
     for num2 in range (1,13):
-        sys.stdout.write(str(num * num2)+ "\t");
+        sys.stdout.write(str(num * num2)+ "\t")
     print("");

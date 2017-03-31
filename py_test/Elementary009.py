@@ -10,9 +10,9 @@ Created on Dec 3, 2016
 
 import random
 
-number_to_guess = random.randrange(0,50);
+number_to_guess = random.randrange(0,50)
 
 print("Number Guessing Game");
 print("Guess the number between")
 
-print(number_to_guess);
+print(number_to_guess)
